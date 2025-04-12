@@ -21,8 +21,7 @@ Flet Music Player is a lightweight, minimal music player built with Python and t
 2. **Create a virtual environment (optional)**
    ```bash
    python -m venv venv
-   source venv/bin/activate      # On Linux/macOS
-   venv\Scripts\activate         # On Windows
+   venv\Scripts\activate        
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
