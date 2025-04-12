@@ -9,13 +9,4 @@ def main(page: ft.Page):
     player=MusicPlayer(page)
     page.add(player)
 
-ft.app(target=main, assets_dir="assets")
-
-# add m4a support
-# modern UI?
-# fading
-# add animations like page_theme
-# bottomSheet equalizer
-# keyboard controls not working
-# change ui color, blur somewhere?
-# visualizer?
+ft.app(target=main)
